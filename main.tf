@@ -1,5 +1,5 @@
 provider "google" {
-  credentials = "${file("/home/mwar/Cloud/GCP/devops/devops-260809-1f72ec5132b0.json")}"
+  credentials = "${creds}"
   project = "devops-260809"
   region = "us-west1"
 }
