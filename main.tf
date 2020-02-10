@@ -1,5 +1,6 @@
+variable "creds"{}
 provider "google" {
-  credentials = "${creds}"
+  credentials = var.creds
   project = "devops-260809"
   region = "us-west1"
 }
