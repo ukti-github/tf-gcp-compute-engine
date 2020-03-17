@@ -1,7 +1,7 @@
 variable "creds"{}
 provider "google" {
   credentials = var.creds
-  project = "devops-260809"
+  project = "wipro-gcp-cloud-studio"
   region = "us-west1"
 }
 
